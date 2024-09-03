@@ -1,0 +1,226 @@
+/* Displays for HTML 5 */
+article,
+aside,
+audio,
+command,
+datagrid,
+details,
+dialog,
+embed,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+video,
+wbr {
+	display: block;
+}
+
+/* Reset styles for all structural tags */
+a,
+abbr,
+area,
+article,
+aside,
+audio,
+b,
+bdo,
+blockquote,
+body,
+button,
+canvas,
+caption,
+cite,
+code,
+col,
+colgroup,
+command,
+datalist,
+dd,
+del,
+details,
+dialog,
+dfn,
+div,
+dl,
+dt,
+em,
+embed,
+fieldset,
+figure,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+head,
+header,
+hgroup,
+hr,
+html,
+i,
+iframe,
+img,
+input,
+ins,
+keygen,
+kbd,
+label,
+legend,
+li,
+map,
+mark,
+menu,
+meter,
+nav,
+noscript,
+object,
+ol,
+optgroup,
+option,
+output,
+p,
+param,
+pre,
+progress,
+q,
+rp,
+rt,
+ruby,
+samp,
+section,
+select,
+small,
+span,
+strong,
+sub,
+sup,
+table,
+tbody,
+td,
+textarea,
+tfoot,
+th,
+thead,
+time,
+tr,
+ul,
+var,
+video {
+	vertical-align: baseline;
+	z-index: 1;
+	margin: 0;
+	outline: none;
+	border: 0;
+	background: transparent;
+	padding: 0;
+	font: inherit;
+	font-size: 100%;
+	text-align: left;
+	text-decoration: none;
+}
+
+/* Miscellaneous resets */
+body {
+	line-height: 1;
+}
+
+ol,
+ul {
+	list-style: none;
+}
+
+blockquote,
+q {
+	quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* base */
+* {
+	--main: #b9ff66;
+	--dark: #191a23;
+	--light: #f3f3f3;
+
+	background-color: var(--light);
+	color: var(--dark);
+	font-family: Space Grotesk;
+}
+
+/* desktop */
+body {
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 22.97px;
+}
+
+h1 {
+	font-weight: 500;
+	font-size: 60px;
+	line-height: 76.56px;
+}
+
+h2 {
+	font-weight: 500;
+	font-size: 40px;
+	line-height: 51.04px;
+}
+
+h3 {
+	font-weight: 500;
+	font-size: 30px;
+	line-height: 38.28px;
+}
+
+h4 {
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 25.52px;
+}
+
+/* mobile */
+@media screen and (max-device-width: 480px) {
+	body {
+		font-size: 16px;
+		line-height: 24px;
+	}
+
+	h1 {
+		font-size: 43px;
+		line-height: 54.87px;
+	}
+
+	h2 {
+		font-size: 36px;
+		line-height: 45.94px;
+	}
+
+	h3 {
+		font-size: 26px;
+		line-height: 33.18px;
+	}
+
+	h4 {
+		font-size: 18px;
+		line-height: 22.97px;
+	}
+}
