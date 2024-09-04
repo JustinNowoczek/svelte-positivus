@@ -156,14 +156,22 @@ table {
 }
 
 /* base */
-* {
+
+body {
 	--main: #b9ff66;
 	--dark: #191a23;
 	--light: #f3f3f3;
 
+	display: grid;
+	grid-template-columns: 100px calc(100% - 200px) 100px;
 	background-color: var(--light);
+	padding-top: 60px;
 	color: var(--dark);
 	font-family: Space Grotesk;
+
+	> div {
+		grid-column: 2;
+	}
 }
 
 /* desktop */
@@ -173,53 +181,58 @@ body {
 	line-height: 22.97px;
 }
 
-h1 {
+header {
 	font-weight: 500;
 	font-size: 60px;
 	line-height: 76.56px;
 }
 
-h2 {
+.subHeading {
 	font-weight: 500;
 	font-size: 40px;
 	line-height: 51.04px;
 }
 
-h3 {
+.large {
 	font-weight: 500;
 	font-size: 30px;
 	line-height: 38.28px;
 }
 
-h4 {
+.medium {
 	font-weight: 500;
 	font-size: 20px;
 	line-height: 25.52px;
 }
 
+.small {
+	font-size: 20px;
+	line-height: 28px;
+}
+
 /* mobile */
 @media screen and (max-device-width: 480px) {
-	body {
+	* {
 		font-size: 16px;
 		line-height: 24px;
 	}
 
-	h1 {
+	.heading {
 		font-size: 43px;
 		line-height: 54.87px;
 	}
 
-	h2 {
+	.subHeading {
 		font-size: 36px;
 		line-height: 45.94px;
 	}
 
-	h3 {
+	.large {
 		font-size: 26px;
 		line-height: 33.18px;
 	}
 
-	h4 {
+	.medium {
 		font-size: 18px;
 		line-height: 22.97px;
 	}
