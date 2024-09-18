@@ -1,9 +1,10 @@
 <script lang="ts">
-	import BannerImage from '@assets/BannerImage.svelte'
+	import HeaderImage from '@assets/HeaderImage.svelte'
+	import Banner from '@components/Banner.svelte'
 	import Button from '@components/Button.svelte'
 </script>
 
-<div class="container">
+<div class="header">
 	<div class="desc">
 		<header>Navigating the digital landscape for success</header>
 		<span
@@ -12,27 +13,37 @@
 		>
 		<Button color="dark" text="Book a consultation" />
 	</div>
-	<div class="image">
-		<BannerImage />
-	</div>
+	<div class="imageContainer"><HeaderImage /></div>
 </div>
 
+<Banner />
+
 <style>
-	.container {
+	.header {
+		padding-top: 30px;
 		display: flex;
 		justify-content: space-between;
-		padding-top: 70px;
-		align-items: center;
 
 		& .desc {
 			display: flex;
 			flex-direction: column;
 			gap: 35px;
+			width: 40%;
 			min-width: 510px;
+			background-color: var(--light);
 		}
 
-		& .image {
-			width: 60%;
+		& .imageContainer {
+			width: 100%;
+			display: flex;
+			justify-content: end;
+
+			& svg {
+				width: 600px;
+				z-index: -1;
+				top: 0;
+				right: 0;
+			}
 		}
 	}
 </style>

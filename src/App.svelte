@@ -1,10 +1,7 @@
 <script lang="ts">
-	import Banner from '@sections/Banner.svelte'
+	import Header from '@sections/Header.svelte'
 	import Nav from '@sections/Nav.svelte'
 </script>
 
 <Nav />
-<Banner />
-
-<style>
-</style>
+<Header />
