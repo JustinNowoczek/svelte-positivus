@@ -34,6 +34,7 @@
 	.heading {
 		display: flex;
 		gap: 40px;
+		margin: 140px 0 80px 0;
 	}
 
 	h2 {
@@ -42,8 +43,5 @@
 		font-size: 40px;
 		line-height: 51.04px;
 		padding: 0 7px;
-	}
-
-	p {
 	}
 </style>

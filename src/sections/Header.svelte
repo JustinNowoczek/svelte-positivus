@@ -38,7 +38,7 @@
 			justify-content: end;
 
 			& svg {
-				width: 600px;
+				height: 515px;
 				z-index: -1;
 				top: 0;
 				right: 0;
