@@ -20,7 +20,6 @@
 
 <style>
 	.header {
-		padding-top: 30px;
 		display: flex;
 		justify-content: space-between;
 

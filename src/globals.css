@@ -171,6 +171,7 @@ body {
 
 	> div {
 		grid-column: 2;
+		margin-bottom: 70px;
 	}
 }
 
@@ -185,12 +186,6 @@ header {
 	font-weight: 500;
 	font-size: 60px;
 	line-height: 76.56px;
-}
-
-.subHeading {
-	font-weight: 500;
-	font-size: 40px;
-	line-height: 51.04px;
 }
 
 .large {
