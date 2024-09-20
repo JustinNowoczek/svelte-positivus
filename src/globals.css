@@ -172,6 +172,12 @@ body {
 	> div {
 		grid-column: 2;
 	}
+
+	& .highlight {
+		border-radius: 7px;
+		background-color: var(--main);
+		padding: 0 7px;
+	}
 }
 
 /* desktop */
